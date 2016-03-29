@@ -239,10 +239,7 @@ angular.module("tw.styleguide-components", ['tw.form-validation', 'tw.form-styli
         };
     }
     function change($element) {
-        var formGroup = $element.closest(".form-group");
-        setTimeout(function() {
-            $element.hasClass("ng-invalid") ? formGroup.addClass("has-error") : formGroup.removeClass("has-error");
-        });
+        $element.closest(".form-group");
     }
     angular.module("tw.form-components").directive("twDynamicFormControl", TwDynamicFormControl);
 }(window.angular), function(angular) {

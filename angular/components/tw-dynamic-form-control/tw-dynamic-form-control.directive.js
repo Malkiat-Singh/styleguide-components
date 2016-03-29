@@ -113,12 +113,12 @@
 
 	function change($element) {
 		var formGroup = $element.closest(".form-group");
-		setTimeout(function() {
-			if ($element.hasClass("ng-invalid")) {
-				formGroup.addClass("has-error");
-			} else {
-				formGroup.removeClass("has-error");
-			}
-		});
+		//setTimeout(function() {
+		//	if ($element.hasClass("ng-invalid")) {
+		//		formGroup.addClass("has-error");
+		//	} else {
+		//		formGroup.removeClass("has-error");
+		//	}
+		//});
 	}
 })(window.angular);
