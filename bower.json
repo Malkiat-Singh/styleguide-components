@@ -4,8 +4,8 @@
   "componentsDirectory": "components/",
   "directory": "components",
   "dependencies": {
-    "bootstrap": "https://github.com/transferwise/bootstrap.git",
-    "currency-flags": "https://github.com/Malkiat-Singh/currency-flags.git",
+    "bootstrap": "https://github.com/Malkiat-Singh/bootstrap.git#master",
+    "currency-flags": "https://github.com/Malkiat-Singh/currency-flags.git#master",
     "angular": "<2.0.0",
     "angular-mocks": "<2.0.0"
   },
